@@ -78,11 +78,11 @@ function windblast_activated(){
 	document.getElementById('skill_cast').style.left = "-90%";
 	document.getElementById('skill_cast').style.top = "-5%";
 	document.getElementById('skill_cast').style.zIndex = "10";
+	document.getElementById('skill_cast_animate').style.visibility ="visible";
 	document.getElementById('front').style.visibility = "hidden";
 	document.getElementById('back').style.visibility = "hidden";
 	document.getElementById('side1').style.visibility = "hidden";
-	document.getElementById('side2').style.visibility = "hidden";
-	document.getElementById('skill_cast_animate').style.visibility ="visible";
+	document.getElementById('side2').style.visibility = "hidden";	
 	if(top_position != 0){
 		document.getElementById('skill_cast_animate').src ="../../character/avatar_animation/avatar_animation_active/windblast_animation/avatar_animation_back.gif";
 	}
