@@ -85,7 +85,7 @@ function windblast_activated(){
 		document.getElementById('side1').style.visibility = "hidden";
 		document.getElementById('side2').style.visibility = "hidden";	
 	}
-	setTimeout(skill_cast_delay_fixer,850)
+	setTimeout(skill_cast_delay_fixer,500)
 	if(top_position != 0){
 		document.getElementById('skill_cast_animate').src ="../../character/avatar_animation/avatar_animation_active/windblast_animation/avatar_animation_back.gif";
 	}
@@ -160,7 +160,7 @@ function lightning_powerup_activated(){
 		document.getElementById('side1').style.visibility = "hidden";
 		document.getElementById('side2').style.visibility = "hidden";	
 	}
-	setTimeout(skill_cast_delay_fixer,850)	
+	setTimeout(skill_cast_delay_fixer,500)	
 	if(top_position != 0){
 		document.getElementById('skill_cast_animate').src ="../../character/avatar_animation/avatar_animation_active/lightning_powerup_animation/avatar_animation_back.gif";
 	}
@@ -233,7 +233,7 @@ function power_aura_activated(){
 		document.getElementById('side1').style.visibility = "hidden";
 		document.getElementById('side2').style.visibility = "hidden";	
 	}
-	setTimeout(skill_cast_delay_fixer,850)
+	setTimeout(skill_cast_delay_fixer,500)
 	if(top_position != 0){
 		document.getElementById('skill_cast_animate').src ="../../character/avatar_animation/avatar_animation_active/power_aura_animation/avatar_animation_back.gif";
 	}
