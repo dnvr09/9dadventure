@@ -80,12 +80,12 @@ function windblast_activated(){
 	document.getElementById('skill_cast').style.zIndex = "10";
 	document.getElementById('skill_cast_animate').style.visibility ="visible";
 	var skill_cast_delay_fixer = function(){
-	document.getElementById('front').style.visibility = "hidden";
-	document.getElementById('back').style.visibility = "hidden";
-	document.getElementById('side1').style.visibility = "hidden";
-	document.getElementById('side2').style.visibility = "hidden";	
+		document.getElementById('front').style.visibility = "hidden";
+		document.getElementById('back').style.visibility = "hidden";
+		document.getElementById('side1').style.visibility = "hidden";
+		document.getElementById('side2').style.visibility = "hidden";	
 	}
-	setTimeout(skill_cast_delay_fixer,1000)
+	setTimeout(skill_cast_delay_fixer,850)
 	if(top_position != 0){
 		document.getElementById('skill_cast_animate').src ="../../character/avatar_animation/avatar_animation_active/windblast_animation/avatar_animation_back.gif";
 	}
@@ -153,11 +153,14 @@ function lightning_powerup_activated(){
 	document.getElementById('skill_cast').style.left = "-15%";
 	document.getElementById('skill_cast').style.top = "-700%";
 	document.getElementById('skill_cast').style.zIndex = "10";
-	document.getElementById('front').style.visibility = "hidden";
-	document.getElementById('back').style.visibility = "hidden";
-	document.getElementById('side1').style.visibility = "hidden";
-	document.getElementById('side2').style.visibility = "hidden";
 	document.getElementById('skill_cast_animate').style.visibility ="visible";
+	var skill_cast_delay_fixer = function(){
+		document.getElementById('front').style.visibility = "hidden";
+		document.getElementById('back').style.visibility = "hidden";
+		document.getElementById('side1').style.visibility = "hidden";
+		document.getElementById('side2').style.visibility = "hidden";	
+	}
+	setTimeout(skill_cast_delay_fixer,850)	
 	if(top_position != 0){
 		document.getElementById('skill_cast_animate').src ="../../character/avatar_animation/avatar_animation_active/lightning_powerup_animation/avatar_animation_back.gif";
 	}
@@ -223,11 +226,14 @@ function power_aura_activated(){
 	document.getElementById('skill_cast').style.left = "-100%";
 	document.getElementById('skill_cast').style.top = "-100%";
 	document.getElementById('skill_cast').style.zIndex = "10";
-	document.getElementById('front').style.visibility = "hidden";
-	document.getElementById('back').style.visibility = "hidden";
-	document.getElementById('side1').style.visibility = "hidden";
-	document.getElementById('side2').style.visibility = "hidden";
 	document.getElementById('skill_cast_animate').style.visibility ="visible";
+	var skill_cast_delay_fixer = function(){
+		document.getElementById('front').style.visibility = "hidden";
+		document.getElementById('back').style.visibility = "hidden";
+		document.getElementById('side1').style.visibility = "hidden";
+		document.getElementById('side2').style.visibility = "hidden";	
+	}
+	setTimeout(skill_cast_delay_fixer,850)
 	if(top_position != 0){
 		document.getElementById('skill_cast_animate').src ="../../character/avatar_animation/avatar_animation_active/power_aura_animation/avatar_animation_back.gif";
 	}
